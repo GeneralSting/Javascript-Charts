@@ -1,0 +1,177 @@
+.logo {
+	width: auto;
+	height: 150px;
+}
+
+body {
+	background-color: #f1f3f3;
+}
+
+
+
+/*Bottom Area*/
+.bottomArea {
+	background-color: #424243;
+	height: 8rem;
+	color: #fff;
+	font-size: .8rem;
+	position: relative;
+	bottom: 0;
+	left: 0;
+}
+
+.yearlyRevenueDescription{
+	opacity: 0.3;
+	margin: 0;
+	padding: 0;
+}
+
+.bottomArea p {
+	font-size: .7rem;
+}
+
+.bottomArea h5 {
+	font-weight: 800;
+	font-size: 16px;
+}
+
+h3,
+h4 {
+	font-weight: 200;
+	color: #424243;
+}
+
+h4 {
+	color: #b8b8b8;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+.totalNum {
+	color: #40bb3d;
+	font-weight: bold;
+	font-size: 5rem;
+}
+
+.graphSec {
+	/* margin: 5px; */
+	box-shadow: 0 0 10px rgba(173, 176, 180, 0.3);
+	background-color: #fff;
+}
+
+.newSalesArea {
+	box-shadow: 0 0 10px rgba(173, 176, 180, 0.3);
+	background-color: #fff;
+}
+
+.list-group-item:first-child {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.list-group-item:last-child {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.descText {
+	color: #a8a8a8;
+	font-size: 1rem;
+}
+
+.modal-header {
+	background-color: #81a2ce;
+	color: #fff;
+	border-bottom: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.modalInvalid {
+	visibility: hidden;
+	margin: auto;
+	font-weight: 700;
+	color: rgb(177, 47, 47);
+}
+
+.modal-title {
+	font-weight: 200;
+}
+
+.close {
+	color: #fff;
+}
+
+.close:hover {
+	color: rgb(192, 192, 192);
+}
+
+.btn {
+	border-radius: 1.25rem;
+}
+
+.modal-content {
+	border-radius: 0;
+	border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.w-90 {
+	width: 90% !important;
+}
+
+.w-60 {
+	width: 60% !important;
+}
+
+.h-30 {
+	width: 30% !important;
+}
+
+.w-20 {
+	width: 20% !important;
+}
+
+.w-10 {
+	width: 10% !important;
+}
+
+.w-5 {
+	width: 5% !important;
+}
+
+.h-30 {
+	height: 30% !important;
+}
+
+/*Yearly Revenue div*/
+.yearlyNumber {
+	box-shadow: rgba(29, 29, 29, 0.35) 0px 5px 15px;
+	;
+}
+
+/*Charts div*/
+.chartBorder {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/*Recent Sales div*/
+.recentSales{
+	padding: 20px;
+	background-color: #d5e1f1;
+	box-shadow: rgba(153, 34, 34, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+@media (min-width: 450px) {
+	.recentSales button {
+		margin: 10px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
